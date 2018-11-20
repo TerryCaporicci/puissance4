@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>puissance 4</title>
+</head>
+<body>
+    <div id="separa_haut">
+    <img src="haut-background.png">
+    </div>
+    <div id="interieur">
+        <div class="vid">
+            <video autoplay loop poster id="bgvid">
+                <source src="https://res.cloudinary.com/sqex/raw/upload/v1428606434/hyxno6oddg5xjhtwbdcw.mp4" type="video/mp4">
+            </video>
+        </div>
+        <h1 class="titre">puissance 4</h1>
+
+       
+            <label id="lab" class="labelTexte">Dimension de la grille</label><br />
+            <select type="text" id="valueY" class="grille">
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <select type="text" id="valueX" class="grille">
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <button id="envoie">crée votre grille</button>
+            <button id="affiche">afficher le generateur de grille</button>
+            <br /><button id="afficheC">afficher le generateur de couleur</button>
+            
+                <br /><select type="text" id="colorJ1" class="color">
+                <option value="1">bleu</option>
+                <option value="2">bleu foncé</option>
+                <option value="3">rouge</option>
+                <option value="4">violet</option>
+                <option value="5">vert</option>
+                <option value="6">or</option>
+                </select>
+                <label id="labColor" class="labelTexte">couleur joueur 1</label><br />
+                
+                <select type="text" id="colorJ2" class="color" >
+                <option value="1">bleu</option>
+                <option value="2">bleu foncé</option>
+                <option value="3">rouge</option>
+                <option value="4">violet</option>
+                <option value="5">vert</option>
+                <option value="6">or</option>
+                </select>
+                <label id="labColor2" class="labelTexte">couleur joueur 2</label><br />
+                <button id="color">choisir les couleur</button>
+                <div id="tour">
+                    
+                </div>
+        <table id="jeu">
+
+        </table>
+    </div>
+    <div id="separa_bas">
+    <img src="bas-background.png">
+    </div>
+</body>
+</html>

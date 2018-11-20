@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+img {
+    width: 100%;
+}
+
+.titre {
+    text-align: center;
+    color: aliceblue;
+    font-size: 35px;
+}
+table{
+    margin: auto;
+}
+td {
+    display: inline-block;
+    margin: 5px;
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    background-image:radial-gradient(white 10%, #b3b3b3 90%);
+    box-shadow: 2px 2px 10px;
+}
+.labelTexte {
+    color: white;
+}
+#interieur {
+    height: 1000px;
+}
+video {
+    display: block; 
+}
+
+#separa_bas, #separa_haut {
+    z-index: 2;
+}
+
+video#bgvid {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -1;
+}
+.vid {
+    z-index: -2;
+    background: url('https://res.cloudinary.com/sqex/raw/upload/v1428606434/hyxno6oddg5xjhtwbdcw.mp4') no-repeat;
+    background-size: cover;
+}
+.red-token {
+    background-image: url('jeton-rouge.png');
+    background-size: cover;
+}
+.golden-token {
+    background-image: url('jeton-jaune.png');
+    background-size: cover;
+}
+.dark-blue-token {
+    background-image: url('jeton-bleu-foncé.png');
+    background-size: cover;
+}
+.blue-token {
+    background-image: url('jeton-bleu.png');
+    background-size: cover;
+}
+.green-token {
+    background-image: url('jeton-vert.png');
+    background-size: cover;
+}
+.purple-token {
+    background-image: url('jeton-violet.png');
+    background-size: cover;
+}
+#tour {
+    text-align: center;
+    color:aliceblue;
+    font-size: 20px; 
+}
